@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping("/main")
+    @GetMapping("/")
     public User getHello(){
         User u = new User("michal", "36");
         return u;

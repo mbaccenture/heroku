@@ -1,1 +1,1 @@
-web: java -jar target/demo-0.0.1-SNAPSHOT.jar -Dserver.port=8080
+worker: java -jar target/demo-0.0.1-SNAPSHOT.jar -Dserver.port=8080
